@@ -1,0 +1,15 @@
+# Clinical records and any patient-level derivatives must stay local.
+data/
+models/
+reports/
+*.xlsx
+*.xls
+*.pdf
+*.joblib
+*.pkl
+*.ipynb
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
